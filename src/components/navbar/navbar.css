@@ -1,0 +1,34 @@
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+    background-color: #14181a;
+    border-radius: 30px;
+    color: #E5A3A1;
+    font-weight: 600;
+
+    padding: 10px;
+    margin: 20px;
+}
+
+nav > ul > li {
+    font-size: 1.6em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover {
+    filter: brightness(70%);
+}
+
+@media screen and (max-width: 1200px) {
+    nav > ul > li {
+        font-size: 1.1em;
+    }
+}

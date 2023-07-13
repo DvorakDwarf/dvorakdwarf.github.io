@@ -1,0 +1,16 @@
+.list > ul {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover {
+    filter: brightness(70%);
+}
+
+.list > ul > li {
+    font-size: 1.2em;
+}
