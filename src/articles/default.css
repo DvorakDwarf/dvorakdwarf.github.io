@@ -34,12 +34,12 @@ hr {
     margin: 20px 0px;
     max-height: 506px;
     border-radius: 15px;
+    width: 100%;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    align-items: center;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -49,9 +49,18 @@ main > img {
     max-height: 394px;
 }
 
-main > p {
+main p,
+main h2 {
     font-size: 1.2em;
     margin-bottom: 1.1em;
+    align-self:flex-start;
+}
+
+main h2 {
+    color: #CEACE8;
+    font-size: 1.7em;
+    margin-top: 15px;
+    margin-bottom: 0;
 }
 
 .cool-bg {
@@ -66,7 +75,7 @@ main > p {
     flex-direction: column;
     margin: 0 10px;
     width: 50%;
-    flex: 1 0 auto;
+    flex: 1 auto auto;
 
     overflow: hidden;
 }
@@ -97,7 +106,6 @@ article time {
 .prev-link {
     color: inherit;
     text-decoration: none;  
-    width: 50%; 
 }
 
 article > main > span {

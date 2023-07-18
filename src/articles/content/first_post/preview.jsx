@@ -4,7 +4,7 @@ import '../../default.css';
 function Preview() {
   const meta = require("./meta.json");
 
-  const route = `/devblog/${meta.title}`;
+  const route = `/devblog/${meta.slug}`;
   const date = new Date(meta.date).toLocaleDateString('en-us', {
     year:"numeric", 
     month:"short",
