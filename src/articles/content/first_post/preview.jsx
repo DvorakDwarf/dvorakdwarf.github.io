@@ -12,7 +12,7 @@ function Preview() {
     }) // "Jul 2021 Friday"
 
     return (
-        <Link className="preview cool-bg prev-link" to={route}>
+        <Link className="preview prev-link" to={route}>
             <img src={require('./images/garbage.gif')}></img>
             <span>Written on: <time>{date}</time></span>
             <p>Actual live footage of the server delivering HTML to you rn</p>

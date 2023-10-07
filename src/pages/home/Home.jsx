@@ -24,24 +24,22 @@ function Home() {
     <Masthead />
     <Navbar />
     <div className="home">
-      <div className="me cool-bg">
+      <div className="me cool-bg gallery-item">
         <img className='pfp' src={require('../../images/pfp.jpg')}></img>
         <p>I am me. I like coding AI and using Rust, despite the two not meshing together. Fan of FOSS and linux (almost entirely because of ricing). I am a Russian immigrant in the US currently applying to colleges</p>
         <p>This is my website, which I made primarily to store devblogs for personal notes and to point to for people interested. I also like having a pretty website</p>
         <a href='https://github.com/DvorakDwarf'>See stuff I made on Github</a>
       </div>
-      <div className="gallery">
       <Suspense fallback={<div>Loading article because react sucks and is no fun and is safe :( ...</div>}>
         <ErrorBoundary>
-          <div className="gallery-item">
+          <div className="gallery-item cool-bg">
             <Preview1 />
           </div>
-          <div className="gallery-item second-link">
+          <div className="gallery-item cool-bg">
             <Preview2 />
           </div>
         </ErrorBoundary>
       </Suspense>
-      </div>
       <div className="extra-credits credits">      
         <span>Color theme is <a href='https://github.com/SweetPastel'>SweetPastel</a></span>
         <span>Art by <a href='https://twitter.com/noellemonade'>@noellemonade</a></span>
