@@ -32,7 +32,6 @@ hr {
 
 .thumbnail {
     margin: 20px 0px;
-    max-height: 506px;
     border-radius: 15px;
     width: 100%;
 }
@@ -45,8 +44,8 @@ main {
 }
 
 main > img {
-    max-width: 700px;
-    max-height: 394px;
+    max-width: 608px;
+    max-height: 342px;
 }
 
 main p,
