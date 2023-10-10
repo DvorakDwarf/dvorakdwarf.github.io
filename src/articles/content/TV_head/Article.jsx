@@ -21,7 +21,7 @@ function Hi() {
         <hr/>
       </div>
       <main>  
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/yEIA7uc1x5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/yEIA7uc1x5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <p>It all started with me finding this neat video on youtube. I recommend you watch it yourself as I took a lot of advice from it. I downloaded their tutorial files and used them as a reference frequently at the beginning</p>
 
         <p>I saw a couple different TV heads previously while doom scrolling, such as the one person from <a href='https://www.youtube.com/watch?v=2HmKYEZgkSY'>Jschlatt's show and tell</a> which has the cool feature of the controls being hidden in the gloves. I tried looking up how to do it but the person who made the cosplay is silent as a partisan so I ended up doing something more boring</p> 
