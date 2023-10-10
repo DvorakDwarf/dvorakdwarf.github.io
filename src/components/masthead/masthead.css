@@ -1,11 +1,11 @@
 .masthead {
     background-image: url('../../images/img1_masthead.png');
-    height: 300px;
-    width: 80%;
+    height: 200px;
+    width: 90%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
-    margin: 0 auto;
+    margin: 0px auto;
     border-radius: 20px;
 }
 
@@ -29,10 +29,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .masthead {
-        max-height: 200px;
-    }
-
     .credits {
         display: none;
     }
