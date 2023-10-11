@@ -3,7 +3,7 @@ article {
     flex-direction: column;
     max-width: 900px;
     margin: 10px auto;
-    padding: 0px 50px;
+    padding: 0px 10px;
     border-radius: 20px;
     align-items: center;
 
@@ -49,10 +49,8 @@ main {
 }
 
 main > img {
-    /* max-width: 608px;
-    max-height: 342px; */
-    max-width: 100%;
-    max-height: 100%;
+    max-width:100%;
+    max-height:600px;
 }
 
 main p,
@@ -73,7 +71,7 @@ main h2 {
     background-color: #14181a;
     box-shadow: 3px 3px #ceace8c0;
     border-radius: 20px;
-    padding: 12px 30px;
+    padding: 12px 10px;
 }
 
 .preview {
