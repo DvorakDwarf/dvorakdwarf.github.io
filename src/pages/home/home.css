@@ -32,8 +32,8 @@
     display: flex;
     width: 68%;
     margin: 10px;
-    /* min-width: 275px;
-    max-width: 1200px; */
+    min-width: 275px;
+    /* max-width: 1200px; */
 }
 
 .gallery-item > img {
@@ -44,8 +44,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 70%;
     min-width: 300px;
-    width: 68%;
 }
 
 .home p {

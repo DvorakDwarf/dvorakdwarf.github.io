@@ -12,13 +12,19 @@ footer {
     align-items: center;
 }
 
-.mid > span {
+.mid span {
     font-family: terminus, 'Courier New', monospace;
 }
 
 .img-wrapper {
     overflow: hidden;
     width: 105px
+}
+
+.love {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 ._8831 {

@@ -7,8 +7,11 @@ function Footer() {
         <div className="img-wrapper">
           <img src={require('../../images/n.gif')}></img>
         </div>
+        <div className='love'>
+          <span>Made with love</span> 
+          <span>by HistidineDwarf</span>
+        </div>
         
-        <span>Made with love by HistidineDwarf</span>
         <div className="img-wrapper">
           <img className='right-gif' src={require('../../images/n.gif')}></img>
         </div>
