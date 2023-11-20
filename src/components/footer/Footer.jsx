@@ -5,15 +5,16 @@ function Footer() {
     <footer>
       <div className="mid">
         <div className="img-wrapper">
-          <img src={require('../../images/n.gif')}></img>
+          {/* <img src={require('../../images/n.gif')}></img> */}
         </div>
         <div className='love'>
           <span>Made with love</span> 
-          <span>by HistidineDwarf</span>
+          <span>by</span>
+          <span>HistidineDwarf</span>
         </div>
         
         <div className="img-wrapper">
-          <img className='right-gif' src={require('../../images/n.gif')}></img>
+          {/* <img className='right-gif' src={require('../../images/n.gif')}></img> */}
         </div>
       </div>
       <div className="_8831">
