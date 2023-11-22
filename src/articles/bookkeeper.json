@@ -16,5 +16,11 @@
         "slug": "fauxnix",
         "title": "What if Nix, but not ?",
         "path": "content/fauxnix"
+    },
+    {
+        "date": "2023-11-22T03:11:59.857Z",
+        "slug": "how-to-pkgbuild",
+        "title": "Creating a PKGBUILD for a python app with vcs",
+        "path": "content/PKGGUIDE"
     }
 ]
