@@ -165,7 +165,7 @@ function Hi() {
         <h2>Note on setup.py</h2>
         <p>
           You should avoid using it. For the build step of your python project, you need 
-          <code>pyproject.toml</code> file to describe how your program ought to be built. 
+          <code> pyproject.toml</code> file to describe how your program ought to be built. 
           It was a replacement for setup.py. It has the same features and more. Use 
           python -m installer to make use of it. I was shown python -m install . which 
           seems to do the same thing but is less popular and allows you to still use setup.py
