@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../../default.css';
+import './theme.css'
 
 function Preview() {
   const meta = require("./meta.json");
@@ -12,7 +13,7 @@ function Preview() {
     }) // "Jul 2021 Friday"
 
     return (
-        <Link className="preview prev-link" to={route}>
+        <Link className="fauxnix preview prev-link" to={route}>
             <img src={require('./images/example.png')}></img>
             <span>Written on: <time>{date}</time></span>
             <p>Non-invasive* Reproducible* Declarative* config management for Nix non-believers</p>

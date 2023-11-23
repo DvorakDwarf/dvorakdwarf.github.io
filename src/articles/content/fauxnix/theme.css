@@ -1,0 +1,74 @@
+.fauxnix {
+    /* --background: #c24d6a;
+    --foreground: #fbfef8;
+    --third-color: #000000; */
+    
+    --background: #000000;
+    --foreground: #c1d7f4;
+    --third-color: #CEACE8;
+
+    background-color: var(--foreground);
+    filter: saturate(90%);
+    color: white;
+}
+
+.fauxnix .cool-bg {
+    background: var(--background);
+    box-shadow: 3px 3px var(--foreground);
+}
+
+.fauxnix h1, h2 {
+    color: var(--foreground);
+}
+
+.fauxnix hr {
+    border-top: 3px solid var(--third-color);
+}
+
+.fauxnix time {
+    color: var(--foreground);
+}
+
+.fauxnix.preview time {
+    color: var(--background);
+}
+
+.fauxnix span {
+    color: var(--third-color);
+}
+
+.fauxnix article {
+    background: var(--background);
+    box-shadow: 6px 6px var(--third-color);
+}
+
+.fauxnix pre > code {
+    border: 0.3em solid var(--foreground);
+    color: #000000;
+}
+
+.fauxnix nav a {
+    color: var(--foreground);
+}
+
+.fauxnix footer {
+    background-color: var(--background);
+}
+
+.fauxnix .mid span {
+    color: var(--foreground);
+}
+
+.fauxnix nav ul {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+.fauxnix.preview {
+    background: var(--foreground);
+    box-shadow: 3px 3px #ffffff;
+    border-radius: 20px;
+    padding: 12px 10px;
+
+    color: var(--background);
+}

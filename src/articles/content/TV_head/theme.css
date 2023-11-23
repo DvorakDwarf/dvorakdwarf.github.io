@@ -1,0 +1,74 @@
+.TV_head {
+    /* --background: #c24d6a;
+    --foreground: #fbfef8;
+    --third-color: #000000; */
+    
+    --background: #000000;
+    --foreground: #d98d70;
+    --third-color: #ceace8c0;
+
+    background-color: var(--foreground);
+    filter: saturate(100%);
+    color: white;
+}
+
+.TV_head .cool-bg {
+    background: var(--background);
+    box-shadow: 3px 3px var(--foreground);
+}
+
+.TV_head h1, h2 {
+    color: var(--foreground);
+}
+
+.TV_head hr {
+    border-top: 3px solid var(--third-color);
+}
+
+.TV_head time {
+    color: var(--foreground);
+}
+
+.TV_head.preview time {
+    color: var(--background);
+}
+
+.TV_head .cover > span {
+    color: var(--third-color);
+}
+
+.TV_head article {
+    background: var(--background);
+    box-shadow: 6px 6px var(--third-color);
+}
+
+.TV_head pre > code {
+    border: 0.3em solid var(--foreground);
+    color: #000000;
+}
+
+.TV_head nav a {
+    color: var(--foreground);
+}
+
+.TV_head footer {
+    background-color: var(--background);
+}
+
+.TV_head .mid span {
+    color: var(--foreground);
+}
+
+.TV_head nav ul {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+.TV_head.preview {
+    background: var(--foreground);
+    box-shadow: 3px 3px var(--background);
+    border-radius: 20px;
+    padding: 12px 10px;
+
+    color: var(--background);
+}

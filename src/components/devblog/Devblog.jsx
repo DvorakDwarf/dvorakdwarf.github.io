@@ -3,9 +3,6 @@ import React, { Suspense } from "react";
 import ErrorBoundary from "../ErrorBoundary";
 import { useParams } from "react-router-dom";
 
-import Navbar from '../navbar/Navbar';
-import Footer from '../footer/Footer';
-
 import './devblog.css';
 
 function Hi() {
@@ -23,13 +20,11 @@ function Hi() {
 
   return (
     <div className="wrapper">
-    <Navbar />
-      <Suspense fallback={<div>Loading article because react sucks and is no fun and is safe :( ...</div>}>
+      <Suspense fallback={<div>Loading article message because react sucks and is no fun and is safe :( ...</div>}>
         <ErrorBoundary>
           <Article />
         </ErrorBoundary>
       </Suspense>
-    <Footer />
     </div>
   );
 }

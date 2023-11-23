@@ -1,7 +1,11 @@
 import '../../default.css';
 import '../../prism.css';
+import './theme.css'
 import Prism from "prismjs";
 import React from "react";
+
+import Navbar from '../../../components/navbar/Navbar';
+import Footer from '../../../components/footer/Footer';
 
 class Codeblock extends React.Component {
   componentDidMount() {
@@ -53,7 +57,8 @@ function Hi() {
 
 
   return (
-    <div className="wrapper">
+    <div className="first_post">
+      <Navbar />
      <article>
       <div className="cover">
         <h1>GREAT SUCCESS</h1>
@@ -84,6 +89,7 @@ function Hi() {
         <p>Overall I am ok with doing web development but the urge to write more rust and anything more low-level is inescapable and insatiable. Or do AI. AI is cool.</p>
       </main>
     </article>
+    <Footer />
     </div>
   );
 }

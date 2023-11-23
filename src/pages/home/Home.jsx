@@ -32,10 +32,10 @@ function Home() {
       </div>
       <Suspense fallback={<div>Loading article because react sucks and is no fun and is safe :( ...</div>}>
         <ErrorBoundary>
-          <div className="gallery-item cool-bg">
+          <div className="gallery-item">
             <Preview1 />
           </div>
-          <div className="gallery-item cool-bg">
+          <div className="gallery-item">
             <Preview2 />
           </div>
         </ErrorBoundary>

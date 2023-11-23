@@ -23,13 +23,13 @@ article iframe {
 .cover > span {
     color: #A3CBE7;
 }
-
+/* 
 .cover > h1 {
     font-size: 2.25em;
     margin-bottom: 0px;
     font-weight: 800;
     color: #CEACE8;
-}
+} */
 
 hr {
     border-top: 3px solid #E5A3A1;
@@ -61,7 +61,7 @@ main h2 {
 }
 
 main h2 {
-    color: #CEACE8;
+    /* color: #CEACE8; */
     font-size: 1.7em;
     margin-top: 15px;
     margin-bottom: 0;
@@ -69,7 +69,7 @@ main h2 {
 
 .cool-bg {
     background-color: #14181a;
-    box-shadow: 3px 3px #ceace8c0;
+    box-shadow: px 4px #ceace8c0;
     border-radius: 20px;
     padding: 12px 10px;
 }
@@ -120,13 +120,20 @@ pre > code {
     line-height: 1.5;
     border-radius: 0.5em;
     border: 0.3em solid #545454;
-    box-shadow: 1px 1px 0.5em #000 inset;
     margin: 0.5em;
     padding: 0.5em;
     white-space: pre-line;
+    background-color: #1d0218;
     /* display: none; */
 }
 
-ul > li {
+li {
     line-height: 1.3em;
+}
+
+h1 {
+    font-size: 2.25em;
+    margin-bottom: 0px;
+    font-weight: 800;
+    color: #CEACE8;
 }

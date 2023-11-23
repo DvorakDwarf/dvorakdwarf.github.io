@@ -1,5 +1,9 @@
 import '../../default.css';
 import React from "react";
+import './theme.css'
+
+import Navbar from '../../../components/navbar/Navbar';
+import Footer from '../../../components/footer/Footer';
 
 function Hi() {
   const meta = require("./meta.json");
@@ -12,7 +16,8 @@ function Hi() {
 
 
   return (
-    <div className="wrapper">
+    <div className="fauxnix">
+      <Navbar />
      <article>
       <div className="cover">
         <h1>{meta.title}</h1>
@@ -81,6 +86,7 @@ function Hi() {
         </p>
       </main>
     </article>
+    <Footer />
     </div>
   );
 }

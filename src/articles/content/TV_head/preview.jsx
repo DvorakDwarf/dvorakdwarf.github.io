@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../../default.css';
+import './theme.css'
 
 function Preview() {
   const meta = require("./meta.json");
@@ -12,7 +13,7 @@ function Preview() {
     }) // "Jul 2021 Friday"
 
     return (
-        <Link className="preview prev-link" to={route}>
+        <Link className="TV_head preview prev-link" to={route}>
             <img src={require('./images/mad.gif')}></img>
             <span>Written on: <time>{date}</time></span>
             <p>I just like TV heads :)</p>

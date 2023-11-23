@@ -1,5 +1,9 @@
 import '../../default.css';
+import './theme.css';
 import React from "react";
+
+import Navbar from '../../../components/navbar/Navbar';
+import Footer from '../../../components/footer/Footer';
 
 class Codeblock extends React.Component {
   render() {
@@ -62,7 +66,8 @@ function Hi() {
 
 
   return (
-    <div className="wrapper">
+    <div className="PKGBUILD">
+      <Navbar />
      <article>
       <div className="cover">
         <h1>{meta.title}</h1>
@@ -173,6 +178,7 @@ function Hi() {
         </p>
       </main>
     </article>
+    <Footer />
     </div>
   );
 }

@@ -1,0 +1,73 @@
+.PKGBUILD {
+    /* --background: #c24d6a;
+    --foreground: #fbfef8;
+    --third-color: #000000; */
+    
+    --background: #fbfef8;
+    --foreground: #c24d6a;
+    --third-color: #000000;
+
+    background-color: var(--foreground);
+    color: black;
+}
+
+.PKGBUILD .cool-bg {
+    background: var(--background);
+    box-shadow: 3px 3px var(--foreground);
+}
+
+.PKGBUILD h1, h2 {
+    color: var(--foreground);
+}
+
+.PKGBUILD hr {
+    border-top: 3px solid var(--third-color);
+}
+
+.PKGBUILD time {
+    color: var(--foreground);
+}
+
+.PKGBUILD.preview time {
+    color: var(--background);
+}
+
+.PKGBUILD .cover > span {
+    color: var(--third-color);
+}
+
+.PKGBUILD article {
+    background: var(--background);
+    box-shadow: 6px 6px var(--third-color);
+}
+
+.PKGBUILD pre > code {
+    border: 0.3em solid var(--foreground);
+    color: #000000;
+}
+
+.PKGBUILD nav a {
+    color: var(--foreground);
+}
+
+.PKGBUILD footer {
+    background-color: var(--background);
+}
+
+.PKGBUILD .mid span {
+    color: var(--foreground);
+}
+
+.PKGBUILD nav ul {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+.PKGBUILD.preview {
+    background: var(--foreground);
+    box-shadow: 3px 3px var(--background);
+    border-radius: 20px;
+    padding: 12px 10px;
+
+    color: var(--background);
+}
