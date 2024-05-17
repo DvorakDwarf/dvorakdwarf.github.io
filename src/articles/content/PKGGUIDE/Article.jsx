@@ -126,7 +126,8 @@ function Hi() {
           Variables you probably need: <br/>
           <ul>
             <li>
-              pkgdesc: 80 characters or less. Do not reference the name of the package
+              pkgdesc: A description of your package. 80 characters or less. 
+              Do not reference the name of the package
             </li>
             <li>url: Your official site. Likely a github repo</li>
             <li>
@@ -134,9 +135,6 @@ function Hi() {
             </li>
             <li>
               makedepends: Packages only required to build the package, not for functionality.
-            </li>
-            <li>
-              license: Name of license. 'MIT', 'GPL', and so on
             </li>
             <li>
               provides/conflicts: The name of packages your package provides the function for.

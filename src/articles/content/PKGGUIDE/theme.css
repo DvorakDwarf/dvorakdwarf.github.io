@@ -43,7 +43,7 @@
 
 .PKGBUILD pre > code {
     border: 0.3em solid var(--foreground);
-    color: #000000;
+    color: #ffffff;
 }
 
 .PKGBUILD nav a {
