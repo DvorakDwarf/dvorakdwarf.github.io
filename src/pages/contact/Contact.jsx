@@ -16,6 +16,7 @@ function Contact() {
         <ul>
           <li>Discord (for people I don't know): @histidinedwarf</li>
           <li>Email: dvorakdwarf@gmail.com</li>
+          <li>Fediverse: @histidinedwarf@wetdry.world</li>
           <li>Snail Mail</li>
           <li><a href='https://www.reuters.com/article/us-safrica-pigeon-idUSTRE5885PM20090910'>Pigeon</a></li>
           <li>Yell at me on the street</li>

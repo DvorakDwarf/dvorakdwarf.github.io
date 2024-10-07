@@ -26,8 +26,8 @@ function Home() {
     <div className="home">
       <div className="me cool-bg gallery-item">
         <img className='pfp' src={require('../../images/pfp.jpg')}></img>
-        <p>I am me. I like coding AI and using Rust, despite the two not meshing together. Fan of FOSS and linux (almost entirely because of ricing). I am a Russian immigrant in the US currently applying to colleges</p>
-        <p>This is my website, which I made primarily to store devblogs for personal notes and to point to for people interested. I also like having a pretty website</p>
+        <p>I am me. I like coding and more recently crochet. Fan of linux ricing. I am a Russian immigrant in the US currently attending college</p>
+        <p>This is my website, which I made primarily to store devblogs for personal notes and to point to for people interested. I also like having a pretty website. Information on this website might become outdated since I don't update the website often</p>
         <a href='https://github.com/DvorakDwarf'>See stuff I made on Github</a>
       </div>
       <Suspense fallback={<div>Loading article because react sucks and is no fun and is safe :( ...</div>}>

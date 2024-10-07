@@ -10,7 +10,7 @@ function Footer() {
         <div className='love'>
           <span>Made with love</span> 
           <span>by</span>
-          <span>HistidineDwarf</span>
+          <span>Histidine "Bite The Hand That Feeds" Dwarf</span>
         </div>
         
         <div className="img-wrapper">
@@ -26,7 +26,7 @@ function Footer() {
         </iframe>
         <img src={require('../../images/blinchik.gif')}></img>
         <img src={require('../../images/delete-twitter.gif')}></img>
-        <img src={require('../../images/iesub.gif')}></img>
+        <img src={require('../../images/anydamn.gif')}></img>
         <img src={require('../../images/webpassion.png')}></img>
       </div>
     </footer>
