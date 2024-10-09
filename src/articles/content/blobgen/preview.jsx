@@ -13,10 +13,10 @@ function Preview() {
     }) // "Jul 2021 Friday"
 
     return (
-        <Link className="PKGBUILD preview prev-link" to={route}>
-            <img src={require('./images/pkglogo.jpg')}></img>
+        <Link className="BLOBGEN preview prev-link" to={route}>
+            <img src={require('./images/blobgenexample.png')}></img>
             <span>Written on: <time>{date}</time></span>
-            <p>As concise a guide as I can make on writing PKGBUILDs for python stuff</p>
+            <p>Making Stellaris-like star maps</p>
         </Link>
     );
 }

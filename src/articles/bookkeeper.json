@@ -22,5 +22,11 @@
         "slug": "how-to-pkgbuild",
         "title": "Creating a PKGBUILD for a python app with vcs",
         "path": "content/PKGGUIDE"
+    },
+    {
+        "date": "2024-10-09T01:08:12.991Z",
+        "slug": "blobgen",
+        "title": "Blobgen: how to generate the universe in 3 mildly convoluted steps",
+        "path": "content/blobgen"
     }
 ]

@@ -1,0 +1,72 @@
+.BLOBGEN {
+    /* --background: #071607;
+    --foreground: #F52535; */
+    --background: #000000;
+    --foreground: #ffffff;
+    --third-color: #000000;
+
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+.thumbnail {
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.BLOBGEN h1, h2 {
+    color: var(--foreground);
+}
+
+.BLOBGEN hr {
+    border-top: 3px solid var(--foreground);
+}
+
+.BLOBGEN time {
+    color: var(--foreground);
+}
+
+.BLOBGEN.preview time {
+    color: var(--foreground);
+}
+
+.BLOBGEN .cover > span {
+    color: var(--third-color);
+}
+
+.BLOBGEN article {
+    background: var(--background);
+    box-shadow: 6px 6px var(--foreground);
+}
+
+.BLOBGEN pre > code {
+    border: 0.3em solid var(--foreground);
+    color: #ffffff;
+}
+
+.BLOBGEN nav a {
+    color: var(--foreground);
+}
+
+.BLOBGEN footer {
+    background-color: var(--background);
+}
+
+.BLOBGEN .mid span {
+    color: var(--foreground);
+}
+
+.BLOBGEN nav ul {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+.BLOBGEN.preview {
+    background: var(--background);
+    box-shadow: 3px 3px var(--foreground);
+    border-radius: 20px;
+    padding: 12px 10px;
+
+    color: var(--foreground);
+}
