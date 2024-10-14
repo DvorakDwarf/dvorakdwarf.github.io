@@ -224,7 +224,13 @@ function Hi() {
           </ul>
         </p>
         <p>Московская колцевая линия - type thing. A circular highway around the universe</p>
-        <h2>Gallery of cool</h2>
+        <h1>My implementation</h1>
+        <p>See: <a href='https://github.com/DvorakDwarf/bevy_nodemap'>https://github.com/DvorakDwarf/bevy_nodemap</a></p>
+        <p>
+          It's rather slow but I will start speeding it up when I actually need it. 
+          It has a few different presets that were used for some pics below.
+        </p>
+        <h1>Gallery of cool</h1>
         <div className='gallery'>
           <img src={require('./images/preset6_1.png')} alt=""></img>
           <img src={require('./images/preset_tube.png')} alt=""></img>
