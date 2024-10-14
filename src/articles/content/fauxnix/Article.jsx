@@ -1,6 +1,7 @@
 import '../../default.css';
 import React from "react";
 import './theme.css'
+import { useScrambledTitle } from '../../ScrambledTitle';
 
 import Navbar from '../../../components/navbar/Navbar';
 import Footer from '../../../components/footer/Footer';
@@ -20,7 +21,7 @@ function Hi() {
       <Navbar />
      <article>
       <div className="cover">
-        <h1>{meta.title}</h1>
+        {useScrambledTitle(meta.title)}
         <time>{date}</time>
         <img className='thumbnail' src={require('./images/example.png')}></img>
         <hr/>

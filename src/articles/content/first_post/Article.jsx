@@ -3,6 +3,7 @@ import '../../prism.css';
 import './theme.css'
 import Prism from "prismjs";
 import React from "react";
+import { useScrambledTitle } from '../../ScrambledTitle';
 
 import Navbar from '../../../components/navbar/Navbar';
 import Footer from '../../../components/footer/Footer';
@@ -61,7 +62,7 @@ function Hi() {
       <Navbar />
      <article>
       <div className="cover">
-        <h1>GREAT SUCCESS</h1>
+        {useScrambledTitle("GREAT SUCCESS")}
         <time>{date}</time>
         <img className='thumbnail' src={require('./images/img1.png')}></img>
         <hr/>

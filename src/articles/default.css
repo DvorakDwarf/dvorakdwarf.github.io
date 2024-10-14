@@ -11,6 +11,10 @@ article {
     box-shadow: 3px 3px #ceace8c0;
 }
 
+.scrambled {
+    cursor: pointer;
+}
+
 article iframe {
     width: 100%;
     height: 40vw;
