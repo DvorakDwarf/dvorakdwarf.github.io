@@ -88,10 +88,7 @@ function Hi() {
             <li>"Read the docs"</li>
           </ul>
           Know that every breath you take is a net negative impact on the planet. You replying 
-          with nothing at all would have been a better use of everybody's time. Quietly simmer in 
-          your elitist tech bro circle and never reply to another newbie again. The only reason 
-          I am not going into any further detail of the way you deserve to be treated is the 
-          admission officer possibly reading this article.
+          with nothing at all would have been a better use of everybody's time.
         </p>
         <h2>What the PKGBUILD does</h2>
         <p> 
@@ -114,7 +111,7 @@ function Hi() {
             </li>
             <li>pkgver: The version. If using git, set in pkgver() function</li>
             <li>
-              pkgrel: If you needed it you'd know. 1 by default. Increment if it's the same version 
+              pkgrel: If you needed it you'd know. 1 by default. Increment if the same version 
               has an update
             </li>
             <li>
@@ -139,7 +136,7 @@ function Hi() {
             </li>
             <li>
               provides/conflicts: The name of packages your package provides the function for.
-              Basically means that if you have a git package, put the name without git to 
+              Basically means that if you have a git package, put the name without git here to 
               make sure you can't install both if you ever make one in the future
             </li>
             <li>
@@ -153,8 +150,7 @@ function Hi() {
           Functions you likely need: <br/>
           <ul>
             <li>
-              pkgver(): If you are using git, set the version this way. Copy one from 
-              <a href='https://wiki.archlinux.org/title/VCS_package_guidelines#Git'> arch wiki</a>
+              pkgver(): If you are using git, set the version this way. Copy one from <a href='https://wiki.archlinux.org/title/VCS_package_guidelines#Git'>arch wiki</a>
             </li>
             <li>
               build(): Build package here. <code>python -m build --wheel --no-isolation</code>

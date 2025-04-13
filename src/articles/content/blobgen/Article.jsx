@@ -49,16 +49,12 @@ function Hi() {
       <main>  
         <p>Post brought to you by 38.0C fever</p>
         <h1>Backstory</h1>
-        <p>If you don't care, go to chapter "The Good Part™"for the algorithm. Pics of the algorithm in the end too</p>
+        <p>If you don't care, go to chapter "The Good Part™" for the algorithm. Pics of the algorithm in the end too.</p>
         <p>
-          I've been looking at some <a href='https://www.youtube.com/watch?v=-llumS2rA8I'>network graph videos</a> and some 
-          <a href='https://eightyeightthirty.one/'> network graph projects</a> (you should check this one out. Graphing the internet with 88x31)
-          so I decided that if I made a library to graph things like this
-          exactly the way I wanted I could use it for a bunch of different projects I had in mind. 
+          I've been looking at some <a href='https://www.youtube.com/watch?v=-llumS2rA8I'>network graph videos</a> and some <a href='https://eightyeightthirty.one/'>network graph projects</a> (you should check this one out. Graphing the internet with 88x31) so I decided that if I made a library to graph things like this exactly the way I wanted I could use it for a bunch of different projects I had in mind. 
         </p>
         <p>
-          Hijinks ensue where I was looking at some different GUI libraries for this, I found that <a href='https://github.com/blitzarx1/egui_graphs'>somebody </a>
-          basically did what I wanted already 
+          Hijinks ensue where I was looking at some different GUI libraries for this, I found that <a href='https://github.com/blitzarx1/egui_graphs'>somebody</a> basically did what I wanted already 
           and 
           <span style={{filter: "brightness(90%)"}}> actually, there are a bunch of different ones other than egui. </span> 
           <span style={{filter: "brightness(70%)"}}>Tauri is like Electron and so I could use HTML/CSS for layout and not learn 
@@ -74,17 +70,17 @@ function Hi() {
         <span>How it looked when it first worked</span>
         <p>
           I was left to decide which idea that needed a network graph like this I wanted to do. 
-          A while ago I was trying to get a dwarf fortress legends mode like game. If you are unaware, Dwarf Fortress is an old colony simulation game
+          A while ago I was trying to make a dwarf fortress legends mode like game. If you are unaware, Dwarf Fortress is an old colony simulation game
           with a lot of effective procedural storytelling and in-depth mechanics you can only get by having very simple graphics and decades to simulate 
           everything down to dwarf eyelids and that mechanic then <a href='https://www.youtube.com/watch?v=VAhHkJQ3KgY'>goes on to cause cats to die of alcohol poisoning</a>. 
           Rimworld and DF have a lot in common. 
         </p>
         <p>
-          Dwarf Fortress also has a separate mode called legends mode where you can see the world from an omniscient perspective and see all the events playing out 
+          Dwarf Fortress also has a separate mode called legends mode where you can see the world from an omniscient perspective and read about all the events playing out 
           while the player isn't looking. Villagers becoming necromancers and then avenging some faction that wronged them, emergent storytelling like that.
           This is great fun to me and I wanted to make a game something like that but in <span className='SPACE'>SPACE</span>. 
           Like a 0-player Stellaris game with more drama. Space Opera on demand. (There are more influences like Starsector, X4, Terra Invicta. Alas, I don't want to be here all day).
-          It's helpful that a game like this shouldn't include a lot of graphics because DF legends mode is mostly text so 
+          It's helpful that a game like this shouldn't include a lot of graphics. DF legends mode is mostly text. 
           I could make it with minimalist graphics and not mess it up. I've done a few things in Blender recently for fun but I am no artist at the moment.
         </p>
         <p>
@@ -189,8 +185,7 @@ function Hi() {
           </li>
           <li>Keep placing <span className='DA_BLOB'>blobs</span>.</li>
         </ol>
-        I wanted shift to a side-tangent for a second. I have commited a GRAVE fumble on step 3. I use a graph datatype to store the nodes and edges.
-        I made a terrible mistake of using a directed graph. That means that when I was adding connections and checking that nodes can reach each other,
+        I wanted to shift to a side-tangent for a second. I have commited a GRAVE fumble on step 3. I made a terrible mistake of using a directed graph. That means that when I was adding connections and checking that nodes can reach each other,
         I was adding way too many than was required. At some point I was trying to find a better algorithm for connecting them because I thought
         that was the reason why <span className='DA_BLOB'>my blob</span> looked like a rat's nest. 
         After I fixed that one thing I found out that I needed the fluffing 4th step.

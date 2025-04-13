@@ -43,12 +43,6 @@ function Hi() {
           osu!lazer version in peace. 
         </p>
         <p>
-          Special shoutout goes to the aliens working on the Nix team who think that manually
-          typing in the name of packages in <code>configuration.nix</code> as opposed to
-          one CLI command was a good idea under any circumstance. I am not a sysadmin, I want to
-          quickly add new programs and save them in my config. 
-        </p>
-        <p>
           The natural solution is for me to write this Nix wannabe program for a couple of 
           weeks and I think it works now. It does basically everything I want Nix to do for me.
           Writing the program was not a problem, trying to make a package from it absolutely was. 
@@ -79,12 +73,13 @@ function Hi() {
           programs that write PKGBUILDS from PyPI packages, unrelated to the question.
         </p>
         <img src={require('./images/dumb.png')}></img>
-        <span>I hate getting help online. At least ChatGPT wouldn't give you an answer you explicitly did not ask for</span>
+        <span>I've re-read this article and have to say I was unnecessarily mad.</span>
         <p>
           I did eventually find what I was missing and figured it out. The exact details of 
           how to write a PKGBUILD for a python app I'll put in a separate article for those
           who struggled like me.
         </p>
+        <p>(2024) since writing this I have moved back to use NixOS</p>
       </main>
     </article>
     <Footer />
