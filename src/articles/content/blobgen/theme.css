@@ -40,11 +40,11 @@
       calc(var(--x) * -3) calc(var(--y) * -3) 0px #d81dc4;
   }
 
-.thumbnail {
+/* .thumbnail {
     width: 70%;
     padding-left: 15%;
     padding-right: 15%;
-}
+} */
 
 .BLOBGEN h1, h2 {
     color: var(--foreground);
@@ -100,4 +100,8 @@
     padding: 12px 10px;
 
     color: var(--foreground);
+}
+
+BLOBGEN.preview {
+    height: 3.6ch;
 }

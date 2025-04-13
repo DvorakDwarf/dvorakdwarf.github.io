@@ -10,7 +10,7 @@ function Footer() {
         <div className='love'>
           <span>Made with love</span> 
           <span>by</span>
-          <span>Histidine "Bite The Hand That Feeds" Dwarf</span>
+          <span>Histidine Dwarf</span> 
         </div>
         
         <div className="img-wrapper">
@@ -24,8 +24,8 @@ function Footer() {
           </a>
         <iframe src="//incr.easrng.net/badge?key=histidinedwarf" title="increment badge" width="88" height="31" frameborder="0">
         </iframe>
-        <img src={require('../../images/blinchik.gif')}></img>
-        <img src={require('../../images/delete-twitter.gif')}></img>
+        <a href='https://yugoslavia.best/'> <img src={require('../../images/blinchik.gif')}></img> </a>
+        {/* <img src={require('../../images/delete-twitter.gif')}></img> */}
         <img src={require('../../images/anydamn.gif')}></img>
         <img src={require('../../images/webpassion.png')}></img>
       </div>

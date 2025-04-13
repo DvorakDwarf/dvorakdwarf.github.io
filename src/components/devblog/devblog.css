@@ -12,6 +12,8 @@ article {
 }
 
 .cover {
+    width: 90%;
+    padding: 10px 10px;
     flex-direction: column;
 }
 
@@ -24,9 +26,11 @@ hr {
 }
 
 .thumbnail {
+    width: 70%;
     margin: 20px 0px;
-    max-height: 506px;
     border-radius: 15px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 main {

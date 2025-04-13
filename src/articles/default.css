@@ -39,11 +39,11 @@ hr {
     border-top: 3px solid #E5A3A1;
 }
 
-.thumbnail {
+/* .thumbnail {
     margin: 20px 0px;
     border-radius: 15px;
     width: 100%;
-}
+} */
 
 main {
     display: flex;
