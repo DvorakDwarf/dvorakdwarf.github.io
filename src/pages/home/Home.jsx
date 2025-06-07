@@ -26,7 +26,7 @@ function Home() {
     <div className="home">
       <div className="me cool-bg gallery-item">
         <img className='pfp' src={require('../../images/pfp.jpg')}></img>
-        <p>I am me. I like coding and more recently crochet. Fan of linux ricing. I am a Russian immigrant in the US currently attending college</p>
+        <p>I am me. I like coding and more recently crochet. Fan of linux customization. Would love to do research.</p>
         <p>This is my website, which I made primarily to store devblogs for personal notes and to point to for people interested. I also like having a pretty website. Information on this website might become outdated since I don't update the website often</p>
         <a href='https://github.com/DvorakDwarf'>See stuff I made on Github</a>
       </div>
