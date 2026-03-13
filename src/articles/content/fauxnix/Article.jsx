@@ -38,10 +38,9 @@ function Hi() {
           generation when things go wrong is life-saving and single-handedly reduces the 
           annual number of computers thrown out of windows worldwide by half. However, I don't like how strict it is
           and how it forces you to do things the Nix way™. Installing things from github or any
-          source other than Nixpkgs can get messy. I don't care about your nerd philosophy
-          of perfect reproducibility and isolated packages, I just want to play the latest 
-          osu!lazer version in peace. 
+          source other than Nixpkgs can get messy.
         </p>
+        <p>(2024) since writing this I have moved back to use NixOS</p>
         <p>
           The natural solution is for me to write this Nix wannabe program for a couple of 
           weeks and I think it works now. It does basically everything I want Nix to do for me.
@@ -52,9 +51,7 @@ function Hi() {
         <p>
           I use Arch Linux and so naturally I wanted to create a package in the Arch User 
           Repository for other people to use. This involves writing a <code>PKGBUILD </code>
-          file which describes how the installation works. The idea was also inspired by some
-          random person who made an AUR package for my Infinite-Storage-Glitch. I thought it 
-          couldn't be too hard.
+          file which describes how the installation works.
         </p>
         <h2>It Was</h2>
         <p>
@@ -68,18 +65,10 @@ function Hi() {
           docs that explain it and ask online for help.
         </p>
         <p>
-          In the Python discord server, I was given an incorrect answer and then my question was closed.
-          In the Arch Linux server, I was told an answer I explicitly was not interested in, followed by
-          programs that write PKGBUILDS from PyPI packages, unrelated to the question.
-        </p>
-        <img src={require('./images/dumb.png')}></img>
-        <span>I've re-read this article and have to say I was unnecessarily mad.</span>
-        <p>
           I did eventually find what I was missing and figured it out. The exact details of 
           how to write a PKGBUILD for a python app I'll put in a separate article for those
           who struggled like me.
         </p>
-        <p>(2024) since writing this I have moved back to use NixOS</p>
       </main>
     </article>
     <Footer />

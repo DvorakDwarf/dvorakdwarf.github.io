@@ -77,24 +77,11 @@ function Hi() {
         <hr/>
       </div>
       <main>  
-        <p>
-          <h2>Preface on getting help.</h2> <br/>
-          If you find yourself using any of the following phrases or types of replies:
-          <ul>
-            <li>"Help vampire"</li>
-            <li>"RTFM"</li>
-            <li>(link to a wiki article with no further explanation)</li>
-            <li>(a command meant to solve the issue with no comment on how it works)</li>
-            <li>"Read the docs"</li>
-          </ul>
-          Know that every breath you take is a net negative impact on the planet. You replying 
-          with nothing at all would have been a better use of everybody's time.
-        </p>
         <h2>What the PKGBUILD does</h2>
         <p> 
           First, you need to understand what the PKGBUILD actually does. The way it works is it 
           opens a directory <code>pkg</code> in the same directory you used the file. Every file
-          your program uses will first be placed there, <b>NOT THE SYSTEM</b>. That is why you
+          your program uses will first be placed there, <b>NOT THE ROOT</b>. That is why you
           must include <code>$pkgdir</code> in your paths. Once the PKGBUILD ends, pacman will
           look at the folder and copy the files into paths with the same name. 
           <code> $pkgdir/usr/bin/yourprogram</code> goes into <code>/usr/bin/yourprogram </code> 
