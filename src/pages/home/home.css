@@ -7,12 +7,19 @@
     align-items: center;
 }
 
-.pfp {
+.pfp_old {
     max-width: 80%;
     min-width: 300px;
     border-style: solid;
     border-width: 4px;
     border-radius: 100%;
+    border-color: #E5A3A1;
+}
+.pfp {
+    width: 200px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10%;
     border-color: #E5A3A1;
 }
 /* 14181a */

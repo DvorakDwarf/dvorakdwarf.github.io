@@ -25,7 +25,8 @@ function Home() {
     <Navbar />
     <div className="home">
       <div className="me cool-bg gallery-item">
-        <img className='pfp' src={require('../../images/pfp.jpg')}></img>
+        <img className='pfp' src={require('../../images/pfp.png')}></img>
+        {/* <img className='pfp' src={require('../../images/pfp_old.jpg')}></img> */}
         <p>I am me. I like coding and more recently crochet. Fan of linux customization. Would love to do research.</p>
         <p>This is my website, which I made primarily to store devblogs for personal notes and to point to for people interested. I also like having a pretty website. Information on this website might become outdated since I don't update the website often</p>
         <a href='https://github.com/DvorakDwarf'>See stuff I made on Github</a>
@@ -43,7 +44,7 @@ function Home() {
       <div className="extra-credits">      
         <span>Color theme is <a href='https://github.com/SweetPastel'>SweetPastel</a></span>
         <span>Art by <a href='https://twitter.com/noellemonade'>@noellemonade</a></span>
-        <span>Hard carried by <a href='https://github.com/zeromero-dev'>zeromero</a></span>
+        <span>Help from <a href='https://github.com/zeromero-dev'>zeromero</a></span>
       </div>
     </div>
     <Footer />

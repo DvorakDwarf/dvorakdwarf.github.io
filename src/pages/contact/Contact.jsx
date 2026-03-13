@@ -20,11 +20,7 @@ function Contact() {
           <li>Snail Mail</li>
           <li><a href='https://www.reuters.com/article/us-safrica-pigeon-idUSTRE5885PM20090910'>Pigeon</a></li>
           <li>Yell at me on the street</li>
-          <li>Twitter: <a href='https://twitter.com/DwarflessDvorak'>@DwarflessDvorak</a></li>
         </ul>
-
-        <p>Additionally. Please don't friend me on discord for no reason. 
-          I will unfriend you within a couple days if you don't have something to say</p>
     </div>
     <Footer />
     </div>
