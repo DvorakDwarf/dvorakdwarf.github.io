@@ -14,7 +14,7 @@ function Contact() {
         <h4>in order of preference</h4>
         <hr/>
         <ul>
-          <li>Discord (for people I don't know): @histidinedwarf</li>
+          <li>Discord: @histidinedwarf</li>
           <li>Email: dvorakdwarf@gmail.com</li>
           <li>Fediverse: @histidinedwarf@wetdry.world</li>
           <li>Snail Mail</li>

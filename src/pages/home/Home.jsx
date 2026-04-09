@@ -28,7 +28,7 @@ function Home() {
         <img className='pfp' src={require('../../images/pfp.png')}></img>
         {/* <img className='pfp' src={require('../../images/pfp_old.jpg')}></img> */}
         <p>I am me. I like coding and more recently crochet. Fan of linux customization. Would love to do research.</p>
-        <p>This is my website, which I made primarily to store devblogs for personal notes and to point to for people interested. I also like having a pretty website. Information on this website might become outdated since I don't update the website often</p>
+        <p>This is my website, which I made primarily to store posts for personal notes and to point to for people interested. I also like having a pretty website. Information on this website might become outdated since I don't update the website often</p>
         <a href='https://github.com/DvorakDwarf'>See stuff I made on Github</a>
       </div>
       <Suspense fallback={<div>Loading article because react sucks and is no fun and is safe :( ...</div>}>
